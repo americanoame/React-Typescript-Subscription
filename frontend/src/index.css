@@ -1,0 +1,60 @@
+/* General Container Styles */
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; 
+    padding: 20px;
+  }
+  
+  .subscription-content {
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  /* Notification Section Styles */
+  .notification-section {
+    margin-bottom: 30px;
+  }
+  
+  .notification-section h2 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px; 
+  }
+  
+  .notification-section p {
+    color: #909090;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 10px; 
+  }
+  
+  /* Divider Line */
+  .line {
+    border: none;
+    height: 1px; 
+    background-color: #dddddd; 
+    margin: 20px 0; 
+    width: 80%; 
+  }
+  
+  /* Mobile-Only Message Box */
+  .mobile-only {
+    display: none;
+  }
+  
+  /* Display the message box on screens 768px or less */
+  @media (max-width: 768px) {
+    .mobile-only {
+      display: block;
+    }
+  }
+  
