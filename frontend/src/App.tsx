@@ -1,8 +1,10 @@
-
+import Subscription from "./components/Subscription"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Subscription />
+    </div>
   )
 }
 
