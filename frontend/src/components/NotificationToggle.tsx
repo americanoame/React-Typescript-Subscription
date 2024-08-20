@@ -3,7 +3,7 @@ import { Form } from 'react-bootstrap';
 interface NotificationToggleProps  {
     label: string;
     checked: boolean;
-    onChnage: () => void;
+    onChange: () => void;
     text: string;
 }
 
