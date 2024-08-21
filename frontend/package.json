@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "clean": "rm -rf dist",
+    "predeploy": "npm run build",
+    "deploy": "npm run clean && npm run build && gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
