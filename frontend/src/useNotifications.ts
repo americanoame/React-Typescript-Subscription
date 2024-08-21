@@ -5,7 +5,7 @@ export const useNotifications = () => {
   const [notifications, setNotifications] = useState({
     login: false,
     marketing: false,
-    postEmail: false,
+    Email: false,
   });
 
   const handleToggle = (type: keyof typeof notifications) => {

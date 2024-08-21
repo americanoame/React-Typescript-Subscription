@@ -45,7 +45,7 @@ const Subscription: React.FC = () => {
         {/* Post Email Notifications Section */}
         <div className="line"></div>
 
-        <NotificationSection title={''} description="Receive notifications via postal mail." label="postEmail" checked={notifications.postEmail} onChange={() => handleToggle('postEmail')} text="Postal Mail" />
+        <NotificationSection title={''} description="Receive notifications via postal mail." label="Email" checked={notifications.Email} onChange={() => handleToggle('Email')} text="Postal Mail" />
 
         <Toaster />
       </div>
